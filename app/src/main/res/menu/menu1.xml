@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/game"
+        android:icon="@drawable/sport"
+        android:title="Games" />
+
+    <item
+        android:id="@+id/suggestion"
+        android:icon="@drawable/ic_baseline_comment_24"
+        android:title="Suggestion"/>
+
+    <item
+        android:id="@+id/table"
+        android:icon="@drawable/maintable"
+        android:title="Table"/>
+
+    <item
+        android:id="@+id/rank"
+        android:icon="@drawable/subrank"
+        android:title="Rank"/>
+
+</menu>

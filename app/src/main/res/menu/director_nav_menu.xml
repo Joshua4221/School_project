@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_Status"
+            android:title="Status" />
+
+        <item
+            android:id="@+id/nav_record"
+            android:title="Records" />
+
+        <item
+            android:id="@+id/sport_features"
+            android:title="Match Featurs" />
+
+        <item
+            android:id="@+id/sport_chat"
+            android:title="Match request" />
+
+    </group>
+
+    <item android:title="Personnal Data">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/nav_setting"
+                android:title="setting" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

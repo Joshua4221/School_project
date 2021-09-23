@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.schoolproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SchoolProject">
+        <activity android:name=".SetMatch"></activity>
+        <activity android:name=".CaptainChatActivity" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.SoilScienceChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.ForestryAndWildLifeChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.FisheryAndAquacultureChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.SoilScience" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.ForestryAndWildLife" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.FisheryAndAquaculture" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.CropScienceChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.CropScience" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.AnimalScienceChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.AnimalScience" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.AgriculturalExtensionChat" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.AgriculturalExtension" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATChat.AgriculturalEconomicsChat" />
+        <activity android:name=".CaptainActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".Chat.FootBall.F_SAAT.Departments.AgriculturalEconomics" />
+        <activity android:name=".Chat.FootBall.FootballActivity" />
+        <activity android:name=".Chat.FootBall.F_SAAT.SAATFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SOPS.SOPSFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SOHT.SOHTFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SOET.SOETFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SOESET.SOESETFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SOBS.SOBSFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SICT.SICTFOOTBALLActivity" />
+        <activity android:name=".Chat.FootBall.F_SEET.SEETFOOTBALLActivity" />
+        <activity android:name=".Chat.TennisActivity" />
+        <activity android:name=".Chat.BasketBall.BasketBAllActivity" />
+        <activity
+            android:name=".StaffDashborad"
+            android:theme="@style/StudentDashboard" />
+        <activity android:name=".Board" />
+        <activity
+            android:name=".DirectorsDashboard"
+            android:theme="@style/StudentDashboard" />
+        <activity
+            android:name=".StudentDishBoard"
+            android:theme="@style/StudentDashboard" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

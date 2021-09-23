@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">SchoolProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">image</string>
+
+    <string-array name="level">
+        <item>Level</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>Faculty</item>
+        <item>SAAT</item>
+        <item>SOPS</item>
+        <item>SOBS</item>
+        <item>SEET</item>
+        <item>SOET</item>
+        <item>SOHT</item>
+        <item>SESET</item>
+        <item>SICT</item>
+    </string-array>
+
+
+    <string-array name="department">
+
+        <item>Department</item>
+        <item>ABE</item>
+        <item>Agricultural Economics</item>
+        <item>Agricultural Extension</item>
+        <item>Animal Science</item>
+        <item>Architecture</item>
+        <item>BCH</item>
+        <item>BDT</item>
+        <item>BIO</item>
+        <item>BMT</item>
+        <item>BTC</item>
+        <item>Chemistry</item>
+        <item>Crop Science</item>
+        <item>CHE</item>
+        <item>CIE</item>
+        <item>CME</item>
+        <item>CSC</item>
+        <item>CyberSecurity</item>
+        <item>DNT</item>
+        <item>EEE</item>
+        <item>ELE</item>
+        <item>EVT</item>
+        <item>EPE</item>
+        <item>Fishery and Aquaculture</item>
+        <item>Forensic Science</item>
+        <item>Forestry and Wildlife</item>
+        <item>FST</item>
+        <item>Geology</item>
+        <item>IFT</item>
+        <item>MCB</item>
+        <item>MCE</item>
+        <item>MEE</item>
+        <item>MME</item>
+        <item>SLT</item>
+        <item>Soil Science</item>
+        <item>Statistics</item>
+        <item>OPT</item>
+        <item>PET</item>
+        <item>PHT</item>
+        <item>POT</item>
+        <item>PTE</item>
+        <item>QST</item>
+        <item>SVG</item>
+        <item>TCE</item>
+        <item>URP</item>
+
+    </string-array>
+
+    <string-array name="directors">
+
+        <item>Directors of Sports</item>
+        <item>DOS SUG</item>
+        <item>DOS ABE</item>
+        <item>DOS Agricultural Economics</item>
+        <item>DOS Agricultural Extension</item>
+        <item>DOS Animal Science</item>
+        <item>DOS Architecture</item>
+        <item>DOS BCH</item>
+        <item>DOS BDT</item>
+        <item>DOS BIO</item>
+        <item>DOS BMT</item>
+        <item>DOS BTC</item>
+        <item>DOS Chemistry</item>
+        <item>DOS Crop Science</item>
+        <item>DOS CHE</item>
+        <item>DOS CIE</item>
+        <item>DOS CME</item>
+        <item>DOS CSC</item>
+        <item>DOS CyberSecurity</item>
+        <item>DOS DNT</item>
+        <item>DOS EEE</item>
+        <item>DOS ELE</item>
+        <item>DOS EVT</item>
+        <item>DOS EPE</item>
+        <item>DOS Fishery and Aquaculture</item>
+        <item>DOS Forensic Science</item>
+        <item>DOS Forestry and Wildlife</item>
+        <item>DOS FST</item>
+        <item>DOS Geology</item>
+        <item>DOS IFT</item>
+        <item>DOS MCB</item>
+        <item>DOS MCE</item>
+        <item>DOS MEE</item>
+        <item>DOS MME</item>
+        <item>DOS SLT</item>
+        <item>DOS Soil Science</item>
+        <item>DOS Statistics</item>
+        <item>DOS OPT</item>
+        <item>DOS PET</item>
+        <item>DOS PHT</item>
+        <item>DOS POT</item>
+        <item>DOS PTE</item>
+        <item>DOS QST</item>
+        <item>DOS SVG</item>
+        <item>DOS TCE</item>
+        <item>DOS URP</item>
+        <item>Captain of my level</item>
+
+    </string-array>
+
+    <string-array name="sports">
+
+        <item>FootBall</item>
+        <item>VollyBall</item>
+        <item>BasketBall</item>
+        <item>Long_Tennis</item>
+        <item>Tennis</item>
+
+    </string-array>
+
+
+    <!--    <string-array name="SAAT_Department">-->
+
+    <!--        <item>Agricultural Economics</item>-->
+    <!--        <item>Agricultural Extension</item>-->
+    <!--        <item>Animal Science</item>-->
+    <!--        <item>Crop Science</item>-->
+    <!--        <item>Fishery and Aquaculture</item>-->
+    <!--        <item>Forestry and Wildlife</item>-->
+    <!--        <item>Soil Science</item>-->
+
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SOPS_Department">-->
+
+    <!--        <item>Statistics</item>-->
+    <!--        <item>Geology</item>-->
+    <!--        <item>Mathematics</item>-->
+    <!--        <item>Chemistry</item>-->
+    <!--        <item>Physics</item>-->
+    <!--        <item>SLT</item>-->
+
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SEET_Department">-->
+    <!--        <item>ABE</item>-->
+    <!--        <item>CHE</item>-->
+    <!--        <item>CIE</item>-->
+    <!--        <item>EEE</item>-->
+    <!--        <item>FST</item>-->
+    <!--        <item>MME</item>-->
+    <!--        <item>MEE</item>-->
+    <!--        <item>MCE</item>-->
+    <!--        <item>PET</item>-->
+    <!--        <item>PTE</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SOBS_Department">-->
+    <!--        <item>BTC</item>-->
+    <!--        <item>BCH</item>-->
+    <!--        <item>BIO</item>-->
+    <!--        <item>MCB</item>-->
+    <!--        <item>Forensic Science</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SOHT_Department">-->
+
+    <!--        <item>OPT</item>-->
+    <!--        <item>DNT</item>-->
+    <!--        <item>POT</item>-->
+    <!--        <item>BMT</item>-->
+    <!--        <item>PHT</item>-->
+
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SICT_Department">-->
+
+    <!--        <item>CSC</item>-->
+    <!--        <item>IFT</item>-->
+    <!--        <item>CyberSecurity</item>-->
+    <!--        <item>SoftWare Engineering</item>-->
+
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SOET_Department">-->
+
+    <!--        <item>Architecture</item>-->
+    <!--        <item>BDT</item>-->
+    <!--        <item>EVT</item>-->
+    <!--        <item>QST</item>-->
+    <!--        <item>SVG</item>-->
+    <!--        <item>URP</item>-->
+
+    <!--    </string-array>-->
+
+    <!--    <string-array name="SESET_Department">-->
+
+    <!--        <item>CME</item>-->
+    <!--        <item>EPE</item>-->
+    <!--        <item>ELE</item>-->
+    <!--        <item>MCE</item>-->
+    <!--        <item>TCE</item>-->
+
+    <!--    </string-array>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="joshua_ejike">Joshua Ejike</string>
+
+</resources>
